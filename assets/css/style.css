@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Sets optimal size for boxes without this they would not be evenly sized and aside elements would not be next but below section elements*/
     padding: 0;
     margin: 0;
 }
@@ -12,7 +12,7 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #ffffff; /* Sets color to white*/
 }
 
 .header h1 {
@@ -43,7 +43,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #ffffff; /* Sets color to white*/
     text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ p {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    background-size: cover; /* sets image fill into section of webpage if taken out it would be would be zoomed in*/
     background-position: center;
 }
 
@@ -98,16 +98,16 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 75%; /*sets boxes to take up 75% of screen so aside elements could be set next to it*/
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 20px; /* gives margin to left side otherwise would have blue all the way to the end of webpage on left side*/
 }
 
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;
+    float: right; /* makes aside elements move to righ to be next to section elements if not they would be be under them to the left*/
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -116,17 +116,17 @@ p {
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; /* Sets color to white*/
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; /* Sets color to white*/
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; /* Sets color to white*/
 }
 
 .benefit-lead h3 {
@@ -168,7 +168,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff; /* Sets color to white*/
 }
 
 .online-reputation-management {
