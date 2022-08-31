@@ -5,7 +5,7 @@ This code has been updated to be more accessible by adding atl attributes of the
 The style.css file was also rearranged and updated. Comments have been added to css file.
 
 ## Link to Live Webpage
-
+https://frutaseca.github.io/Challenge-Week1/ 
 
 ## Picture of Webpage
 ![Screenshot of Webpage](./assets/images/webpage.jpg)
